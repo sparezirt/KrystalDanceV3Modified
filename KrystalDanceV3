@@ -1,5 +1,5 @@
 -- Krystal Dance V3, Made by Hemi (es muy janky)
-if not isfolder("Dances") then 
+if not isfolder("Dances") then
     makefolder("Dances")
     end
 local is = game:GetService("InsertService")
@@ -8,10 +8,10 @@ local walkanim = is:LoadLocalAsset("rbxassetid://103292185212679")
 local randompart = Instance.new("Part",game:GetService("RunService"))
 local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
 coolparticles.Parent = randompart
-local playbacktrack = true 
+local playbacktrack = true
 local script = Instance.new("LocalScript")
 local OxideApi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/Utils/refs/heads/main/OxideApi"))()
-local timeposcur = 0 
+local timeposcur = 0
 OxideApi.Notification("Krystal Dance V3. Modified by sonixdev, Made by Hemi",10)
 local playanother = false
 local playing = false
@@ -31,7 +31,7 @@ local char=game:GetService("Players").LocalPlayer.Character
 local hum=char:FindFirstChildOfClass("Humanoid")
 local h=char.Head
 local t=char.Torso
-local hrp=char.HumanoidRootPart 
+local hrp=char.HumanoidRootPart
 local cframe;
 local torso;
 local rs;
